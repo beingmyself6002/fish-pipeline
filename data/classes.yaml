@@ -1,0 +1,20 @@
+# Fish Species/Categories
+# Format: id: name
+classes:
+  0: bannerfish
+  1: surgeonfish
+  2: damselfish
+  3: wrasse
+  4: unknown_silver
+  5: unknown_dark
+  6: fish  # Generic class if running single-class detector mode
+
+# Display colors (BGR format for OpenCV)
+colors:
+  bannerfish: [255, 128, 0]      # Orange
+  surgeonfish: [0, 255, 255]     # Cyan
+  damselfish: [255, 0, 128]      # Magenta
+  wrasse: [128, 255, 0]          # Green
+  unknown_silver: [200, 200, 200] # Light gray
+  unknown_dark: [50, 50, 50]     # Dark gray
+  fish: [0, 255, 0]              # Green (generic)
